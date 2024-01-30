@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-class DeliveryFeeDto(
+data class DeliveryFeeDto(
     @SerialName("cart_value")
     var cartValue: Int,
     @SerialName("delivery_distance")
